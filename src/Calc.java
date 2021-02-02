@@ -70,6 +70,21 @@ public class Calc {
         return result;
     }	
    
+    //Metodo4 Que obtenga proporcionalmente los correctos numeros escritos como String
+    
+    public double[] Regla3Letras(String n) {
+        int i;
+        int [] array=new int [3];
+        List<Integer> cambio = f3(n);
+        for(i=0;i< ((CharSequence) cambio).length(); i++) {
+            array[i]=cambio.get(i);
+        }
+        double[] regla = regla3Array(array);
+        return regla;
+
+    }	
+    
+
 }
     
 

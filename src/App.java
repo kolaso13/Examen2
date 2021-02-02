@@ -24,6 +24,7 @@ public class App {
         }
 
         System.out.println("El array: " + arrayS + " proporcional a 60 es: " + solRegla);
-       
+        
+        
     }
 }

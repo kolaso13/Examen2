@@ -52,4 +52,23 @@ public class CalcTest {
         // Confirmación
         assertEquals(res, result);
     }
+
+    @Test
+    @DisplayName("Test del metodo4")
+    public void test4() {
+        // Preparación
+        Calc c = new Calc();
+        int[] array = new int[3];
+        array[0]=6;
+        array[1]=2;
+        array[2]=1;
+        double[] res = new double[3];
+        res[0]=40;
+        res[1]=13.33;
+        res[2]=6.66;
+        // Ejecución
+		double[] result = c.Regla3Letras("uNo TrES CuaTro");
+        // Confirmación
+        assertEquals(result, result);
+    }
 }
